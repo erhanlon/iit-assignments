@@ -4,57 +4,24 @@
 <meta charset="UTF-8">
 
 <head>
-<link rel="stylesheet" type="text/css" href="mystyle.css">
-<a href="index.html">Back to home</a>
 </head>
 <body>
-<h1>Intro to Information Technology Assignment 1</h1>
+
 <hr>
-<h4>Personal Information</h4>
-<img src="me_feb19.JPG"height="300px"width="225px">
-<p>Hey! My name is Evan Hanlon. My student number at RMIT is s3855923, which tells you what my student email is, but evan.r.beggs@gmail.com is my personal email address. It doesn't match with my current name because it is my birth name, which I only changed in late 2019, so sometimes I don't immediately recognise my name.</p>
-<p>I was born in Australia, and so were all my parents and grandparents, and as far as I know at least 4 of my great grandparents were born in Australia as well. Before that, my ancestry is almost entirely English, Scottish and Irish.</p>
-<p>I graduated high school in 2016 in Geelong - I went to Geelong High School. I then started at Deakin University, but then a <i>lot</i> of stuff happened and my life got turned upside down and I ended up failing half of my classes for two successive semesters, so I decided to defer in 2019 to take a gap year to look for a job. It didn't go very well and I spent the entire year of 2019 applying for jobs and getting nowhere, getting more and more depressed, and by October going back to uni seemed like the most exciting thing ever.</p>
-<p>I then ended up moving from Geelong to Keilor East on somewhat short notice in January 2020, where commuting or driving to Deakin was no longer an option due to distance, so I applied to transfer to a few universities in Melbourne to make commuting easier, RMIT gave me an offer which I accepted, and then I unenrolled from Deakin and now here we are.</p>
-<hr>
-<h4>Interest in IT</h4>
-<p>Since I was a kid I enjoyed playing computer games, and as I got older an interest in the programming side of things came along with that. I never did any code until I was in year 11.</p>
-<p>I chose RMIT because a transfer between universities was necessary, and RMIT is one of the top universities for the IT field.</p>
-<p>I expect, in my studies, to steadily become more able to do general IT tasks - I have a broad interest in the IT field and am not yet sure what specifically I want to do.</p>
-<hr>
-<h4>Ideal Job</h4>
-<p>My ideal job would be something like <a href="https://www.seek.com.au/job/41201826?ref=recom">this</a><br/>
-<a href="sysadmin1.PNG">(Picture if the ad has expired)</a></p>
-<p>This job is a relatively high-level administrator position in a professional company. Jobs such as this interest me most because I have an interest in the administration field anyway, and this position and others like it would ideally be a mix of those two interests of mine.</p>
-<p>The knowledge requirements of this position are typical of many advanced high-level administration jobs - being, for the most part, having past experience and knowledge dealing with things I have <i>heard of</i>, like Skype for Business, firewalls, and virtual machines, but that I have never or very rarely had to deal with. This is also a more person-focused position than would be expected for a more programming-oriented position.</p>
-<p>At my current skill level, I have a fair amount of experience with Office365 and only some experience with Skype, not for at least 5 years - I don't know how different Skype for Business is to standard Skype. I have no experience or knowledge dealing with any of the other required skills/experience advertised.</p>
-<p>I don't expect to graduate with an IT degree without having ever used any of the programs this job ad is asking to know how to use, particularly virtual machines, so I fully expect to end up using them all, or at least some of them, as part of a class at some point.</p>
-<hr>
+<h1>About Me</h1>
+<ul>
+	<li>Name: Evan Hanlon</li>
+	<li>Student No: s3855923</li>
+	<li>Background: Almost entirely British Isles-based (Irish, Scottish, English)</li>
+	<li>Hobbies: Video game</li>
+	<li>IT Interest: Software Testing</li>
+	<li>IT Experience: Software Development in year 12, first year programming units at Deakin University in 2017</li>
+</ul>
+
 <h4>Profile</h4>
 <p>According to the <a href="http://16personalities.com">Myers-Briggs Type Indicator</a> I have an ISFP-A personality - the "Adventurer".</p>
 <p>According to <a href="http://www.educationplanner.org/students/self-assessments/learning-styles.shtml">an online learning style test</a> I learn best overwhelmingly kinesthetically/tactile (60%), with auditory and visual learning tying at 20% each.</p>
 <p>According to <a href="https://www.psychometricinstitute.com.au/Free-Personality-Test.asp">a psychometric test</a> I score a 6/10 in both confidence in my own ability to succeed <i>and</i> in being achievement driven.</p>
-<p>I'm honestly not sure what to take from the combination of these personality tests because they don't seem to overlap overly well in terms of purpose or what they say about me. They may, however, influence how I act in the workplace in the future as I know now what skills and tendencies I lack in.</p>
 <hr>
-<h4>Project ideas</h4>
-<p>A lot of the 'ideas' I have for things I'd like to do aren't <i>creating my own projects</i>, but usually while I'm doing something I'll think of a way to improve whatever system I'm using at the given time.</p>
-<p>The biggest example of this happens when I'm at work - I work at an Italian restaurant, and my job is to make all the drinks for dine-in, and all desserts for both dine-in and takeaway. There is a printer in front of me that prints people's drink orders when the waitresses have put them through, and that alone isn't a problem; it works perfectly.</p>
-<p>Unfortunately the printer prints <i>all</i> orders that contain a drink or a dessert, whether it's relevant to me or not - which means that whenever the printer prints a takeaway order for a bottle of Coke for example, I just take the docket, stick it straight onto the spike, and go back to whatever I was doing. Another problem is that the bar printer also prints dockets containing any 'dummy' items used for price adjustment for UberEats orders, which come to me as nonsense orders (There might be an order of "U" for $0.90, for example).</p>
-<p>I don't know who designed the system that decides which items go to which printer but whenever I spike an order that doesn't need to have come to me, I die a little inside, both at the waste of paper and at the inefficiency of whatever database system decides which items get printed where, and I always want to fix it. To do that, I would have to do the following:
-<ol>
-	<li>Investigate how the system determines what goes where - it's important to note that my printer is the only printer that needs changing, as the pizza and kitchen printers need to receive every order for their category regardless.</li>
-	<li>Maybe create some algorithm that uses the combination of the type of item (food, drink, pizza, dessert, etc) and also the eating mode (dine-in, takeaway, UberEats), and prints accordingly - the bar printer should receive only dine-in drink orders, and dessert orders regardless of eating mode.</li>
-	<li>Perhaps add an extra category called "dummy order" for the dummy price adjustment items that doesn't get printed anywhere.</li>
-	<li>Change and test the system by putting through dummy test orders for:<ul>
-		<li>Every item individually, in both dine-in and takeaway/UE forms</li>
-		<li>Random combinations of items, again in both eat in and eat out modes</li>
-		<li>Dummy price adjusters in some orders, distributed randomly</li>
-		<li>Orders that have had changes made - something added, excluded, or substituted from an order, for all food types (pizza, kitchen food, drinks)</li>
-		</ul></li>
-	<li>Fix any errors if something gets printed to the wrong place or not at all.</li>
-</ol></p>
-<p>As I haven't looked at the language the system currently uses, I don't actually know how exactly to accomplish this task, nor will I be able to find out any time soon as the restaurant is mostly closed due to the current situation in Victoria. Regardless, if this were done it would certainly make my life easier as the printer wouldn't print things I didn't have to worry about, and presumably other restaurants under the same franchise use a similar or identical system, and their systems could be improved too. Depending on how widespread the system is, it could even be used to improve efficiency in other restaurants as well.</p>
-<hr>
-
 </body>
 </html>
