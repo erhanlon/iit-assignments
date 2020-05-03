@@ -68,7 +68,7 @@ tr{
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: none;
 }
 
 #pic {
@@ -80,9 +80,7 @@ ul {
 }
 
 #intanswer {
-  border: 2px solid black;
-  outline-style: outset;
-  outline-color: grey;
+  background-color: pink; 
 }
 
 #align {
