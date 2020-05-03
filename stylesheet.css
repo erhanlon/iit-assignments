@@ -5,9 +5,13 @@ body {
 }
 
 h1 {
+  text-transform: capitalize;
+  font-family: Impact, Charcoal, sans-serif;
+  text-align: center;
 }
 
 h2 {
+  color: #82d2ea;
 }
 
 h3 {
@@ -22,20 +26,45 @@ h5 {
 h6 {
 }
 
-#Navbar{
-  margin: 0px;
-  padding-left: 50px;
-  list-style-type:none;
-}
-
 #block1 {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  padding: 5px;
-  background-color: lightgrey;
-  border: 2px solid #4CAF50;
-  margin-right: 0px;
-  margin-left: 0px;
+  padding: 0px;
+  background-color: #0abab5;
+  border-bottom: 2px solid #000000;
+  margin: 0px;
   z-index: +2;
+}
+
+#Navbar{
+  margin: 0px;
+  padding-left: 0px;
+  list-style-type:none;
+}
+#navlist{
+  background-color: #0abab5;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#navlist:active {
+  background-color: grey;
+}
+
+#navlist:hover {
+ background-color: #FFFFFF;
+}
+
+tr{
+  padding: 0px;
+}
+
+img{
+  vertical-align: middle;
+  border-color: black;
+  border-width: 2px;
 }
